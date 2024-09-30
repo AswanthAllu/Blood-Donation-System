@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    font-family: roboto;
+  
+}
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+.signup-container{
+    background-image: radial-gradient(circle,#f6d9d8,#ae6446 ,#C2231E );
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+
+}
+.signup-head{
+    color:#C2231E;
+    font-weight:bold;
+    font-size: 33px;
+}
+.sign-up-container {
+    background-color:#f6d9d8 ;
+    border-radius: 10px;
+    width:350px;
+    text-align: center;
+}
+input{
+    height:27px;
+    width:300px;
+    margin:10px;
+    border:0px ;
+    border-radius:5px;
+    padding-left:10px;
+}
+select{
+    height:27px;
+    width:190px;
+    margin:10px;
+    border:0px ;
+    border-radius:5px;
+    padding-left:10px;
+}
+a{
+    color:#C2231E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-container{
+    background-image: radial-gradient(circle,#f6d9d8,#ae6446 ,#C2231E );
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.log-in-container{
+    background-color:#f6d9d8 ;
+    border-radius: 10px;
+    width:350px;
+    text-align: center;
+}
+.login-head{
+    color:#C2231E;
+    font-weight:bold;
+}
+
+
+.userDetails-head{
+    font-weight:bold;
+    font-size:50px;
+    color:#C2231E;
+}
+.userDetails-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.userDetails-form-container{
+    background-color: #f6d9d8;
+    border-radius:10px;
+    padding:10px;
+    margin-right:100px;
+}
+.userDetailsForm-card-head{
+    font-size:26px;
+}
+.userDetails-image{
+    height:430px;
+    width:470px;
+}
+.dashboard-navbar{
+    background-color:#C2231E;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-grow:1;
+    padding:10px;
+}
+.dashboard-navbar-heading{
+    color:#ffffff;
+    font-size:26px;
+    font-weight:bold;
+}
+.dashboard-navbar-link{
+    font-size:15px;
+    color:#ffffff;
+    margin-right:10px;
+    font-weight:500px;
+}
+.dashboard-logout-button{
+    border-radius: 29px;
+    border:0px;
+    padding:5px;
+    width:75px;
+    color:#C2231E;
+}
+.dashboard-body-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow:1;
+    
+}
+.dashboard-side-menu-container{
+    background-color:#f6d9d8;
+    height:90vh;
+    min-width:250px;
+    padding:20px;
+
+}
+
+.dashboard-menu-item{
+    font-size:16px;
+    color:#C2231E;
+}
+.dashboard-content-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:start;
+  
+
+}
+.dashboard-content-blood-group-items-container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin:20px;
+    flex-wrap:wrap;
+}
+.dashboard-content-blood-group-item {
+    text-align:center;
+    background-color:#f6d9d8;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+    min-width:170px;
+    max-width:180px;
+
+}
+.dashboard-content-blood-group{
+    font-weight:bold;
+    font-size:26px;
+    color:#C2231E;
+}
+.dashboard-content-blood-group-horizontal-lines{
+    border: none;
+  height: 2px;
+  background-color: #333;
+  width:55px;
+  margin-left:52px;
+}
+.emergency-button-container{
+    background-color:#C2231E;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:22px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    border:0px;
+    width:200px;
+    height:60px;
+    position: fixed;   
+    bottom: 30px;      
+    right: 20px;  
+}
+.emergency-logo{
+    color:#ffff;
+    margin-right:10px;
+    font-size:26px;
+}
+
+.footer{
+    background-color: #141617;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-head{
+    color:#ffffff;
+    font-size:24px;
+}
+.footer-para{
+    color:#929393;
+    font-size:20px
+}
+.footer-section{
+    background-color:#141617 ;
+}
+.footer-top-head{
+    font-size: 28px;
+    color: #BFBFBF;
+}
+
+
+.footer-logos {
+    height: 25px;
+    width: 25px;
+    color: #96948f;
+
+}
+
+.footer-head {
+    font-family: roboto;
+    color: #96948f;
+    font-size: 16px;
+    margin-bottom: 18px;
+    margin-left: 5px;
+    margin-top: 29px;
+}
